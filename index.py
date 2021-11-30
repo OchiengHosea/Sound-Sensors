@@ -2,7 +2,7 @@ import RPi.GPIO as GPIO
 import time
 
 #GPIO SETUP
-sound = 17
+sound = 6
 led = 27
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(sound, GPIO.IN)
